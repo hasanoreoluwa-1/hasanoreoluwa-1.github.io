@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: transparent;
+}
+header>.logo{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: orangered;
+}#sidebar{
+transition: all .4s ease;
+}
+header ul{
+    display: inline-flex;
+    gap: 50px;
+    padding-top: 10px;
+    list-style: none;
+    font-weight: bold;
+    color: white;
+}
+button{
+    height: 40px;
+    background-color: orangered;
+    margin-top: 10px;
+    margin-right: 30px;
+    color: white;
+    border: none;
+    outline: none;
+}
+.Home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(black.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left:60px ;
+}
+.Home>h2{
+    padding-top: 150px;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.2;
+    z-index: -1;
+    
+}
+.Home>h1{
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 180px;
+    z-index: -1;
+    text-transform: uppercase;
+}
+.Home>button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin-top: 170px;
+}
+.Home>h1>span{
+    color: orangered;
+}
+.about{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+
+}
+.about.title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+.about>.title>h1{
+    color: white;
+    text-transform: capitalize;
+    font-size: 90px;
+    position: absolute;
+    left: 550px;
+    opacity: 0.09;
+    
+}
+.about>.title>h2{
+    color: orangered;
+    font-size: 60px;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.hold{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.hold>.image{
+    width: 50%;
+    height: 600px;
+   
+
+}
+.frame{
+    border: 5px solid orangered;
+    width: 400px;
+    height: 500px;
+    margin-left: 200px;
+    
+}
+.frame>img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: -1px;
+    right: 1 px;
+}
+.text{
+    padding: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+.text>h4{
+    margin-bottom: 20px;
+}
+.text>h4>span{
+    color: orangered;
+}
+.text>p{
+    width: 70%;
+    text-align: left;
+}
+.texts{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-direction: row;
+    text-align: center;
+}
+.text-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-one>h4{
+    color: orangered;
+}
+.text-one>span{
+    margin-top: 25px;
+}
+.text-one>span>h4{
+    color: orangered;
+}
+.text-two {
+    display: flex;
+    flex-direction: column;
+}
+.text-two>h4{
+    color: orangered;
+}
+.text-two>span{
+    margin-top: 25px;
+}
+.text-two>span>h4{
+    color: orangered;
+}
+.text-three{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.text-three>h4{
+    color: orangered;
+}
+.social{
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    height: 60px;
+    justify-content: space-between;
+    
+}
+.icon{
+     width: 15%;
+     border: 2px solid white;
+    padding-top: 10px;
+        
+}
+.social .icon i{
+font-size: 30px;
+}
+.free{
+    height: 900px;
+        width: 100%;
+        background-color: rgb(15, 12, 12);
+        
+}
+.skill>h1{
+    color: white;
+        text-transform: capitalize;
+        font-size: 100px;
+        position: absolute;
+        left: 550px;
+        opacity: 0.09;
+        font-family: sans-serif;
+}
+.skill>h3{
+    color: orangered;
+        font-size: 40px;
+        padding-top: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        font-family: sans-serif;
+        
+}
+.battery{
+    margin: auto;
+    width: 90%;
+    /* height: 100%; */
+    display: flex;
+        justify-content: space-evenly;
+        /* flex-direction: column; */
+        margin-top: 70px;
+}
+
+.battery-one{
+ 
+     width: 25%;
+     height: 100%;
+}
+.wrap{
+  width: 100%;
+  margin-top: 30px;
+
+}
+.wrap>p{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.wrap .line{
+    margin-top: 5px;
+    background: rgb(31, 29, 29);
+    /* border-radius: 10px; */
+    height: 10px;
+}
+.wrap .line .all{
+    width: 90%;
+    /* border-radius: 10px; */
+    background: orangered   ;
+    height: 100%;
+}
+.battery-two{
+    /* border: solid 2px white; */
+    width: 25%;
+    height: 100%;
+    /* padding-left: 30PX; */
+}
+.freelance>h2{
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    text-align: center;
+    margin-top: 80px;
+    font-family: sans-serif;
+
+}
+.bus{
+    height: 900px;
+        width: 100%;
+        background-color: black;
+}
+.buses{
+    width: 50%;
+        margin: auto;
+        text-align: center;
+}
+
+.buses>h2{
+    color: orangered;
+        font-size: 40px;
+        padding-top: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        font-family: sans-serif;
+}
+.tiny{
+    font-size: 20px;
+        margin-top: 20px;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        height: 60px;
+        justify-content: space-evenly;
+        font-family: sans-serif;
+        padding-left: 60px;
+}
+.logo{
+    width: 15%;
+    color: orangered;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.logo>i{
+    text-align: center;
+}
+.logo>i>h4{
+    color: white;
+    font-family: sans-serif;
+    width: 130%;
+    font-size: 15px;
+    text-align: center;
+}
+.logo>i>p{
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 15px;
+    width: 170%;
+    opacity: 0.75;
+}
+
+.logo{
+    width: 15%;
+    color: orangered;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.logo>i {
+    text-align: center;
+    font-size: 50px;
+}
+
+.logo>i>h4 {
+    color: white;
+    font-family: sans-serif;
+    width: 130%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.logo>i>p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 13px;
+    width: 170%;
+    opacity: 0.75;
+}
+.large{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family: sans-serif;
+    padding-left: 60px;
+
+
+}
+.logo-two{
+    width: 15%;
+    color: orangered;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.logo-two>i {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 100px;
+    
+}
+
+.logo-two>i>h4 {
+    color: white;
+    font-family: sans-serif;
+    width: 130%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.logo-two>i>p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 13px;
+    width: 170%;
+    opacity: 0.75;
+}
+header i{
+    display: none;
+}
+
+@media (max-width:768px){
+    header
+    {
+        /* z-index: 100000000000; */
+    }
+header ul{
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+    background: orangered;
+    line-height: 100px;
+    padding-left: 20px;
+    position: absolute;
+    right: -600px;
+}
+header i{
+    color: white;
+    display: block;
+    font-size: 30px;
+    padding-top: 14px;
+    cursor: pointer;
+}
+header ul i{
+    color: black;
+    top: 0;
+    left: 400px;
+    position: absolute;
+}
+.home>h2{
+    color: orangered;
+}
+.about .title h1{
+    left: 120PX;
+}
+.about{
+    height: 100%;
+}
+.about .hold{
+    flex-direction: column;
+}
+.about .hold .image .frame{
+    margin-left: 50px;
+    
+}
+.about .text{
+    width: 90%;
+    margin: auto;
+    
+}
+.about .text p{
+    width: 100%;
+}
+.tiny{
+    margin-bottom: 300px;
+}
+.large{
+    margin-top: 300px;
+}
+#sidebar>li{
+    
+}
+
+}
